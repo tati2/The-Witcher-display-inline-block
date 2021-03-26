@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+body{
+    background-image: url(assets/img/the\ witcher\ hell.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-log{
+    display: inline-block;
+    padding-left: 3rem;
+}
+
+.box-log img{
+    height: 4rem;
+    margin: 1rem 1rem -1rem 2rem;
+}
+
+.box-log p{
+    display: inline-block;
+    margin-left: 1rem;
+    text-transform: uppercase;
+}
+
+.box-navigation{
+    display: inline-block;
+    margin-left: 28rem;
+}
+
+.box-navigation li{
+    display:inline-block;
+    margin-right: 2rem;
+    text-transform: uppercase;
+
+}
+.box-navigation li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.box-person{
+    background-image: url(assets/img/the\ witcher\ kavil2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 28rem;
+    height: 40rem;
+    margin-left: 25rem;
+}
+.box-person img:hover{
+    cursor: pointer;
+}
+.img-main{
+    width: 20rem;
+    margin: 17rem 0 1rem 4rem;
+}
+.btn-main{
+    width: 16rem;
+    margin-left: 6rem;
+
+}
